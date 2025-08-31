@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+body {
+   background-color: #0d0d0d;
+}
+
+@layer utilities {
+   .full-screen {
+      @apply h-screen w-screen;
+   }
+}
