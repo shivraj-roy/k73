@@ -1,7 +1,11 @@
+import Video from "../components/Video";
+
 const Home = () => {
    return (
       <>
-         <div className="text-white">Home</div>
+         <div className="full-screen">
+            <Video />
+         </div>
       </>
    );
 };

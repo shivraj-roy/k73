@@ -8,4 +8,8 @@ body {
    .full-screen {
       @apply h-screen w-screen;
    }
+
+   .full-screen-alt {
+      @apply h-full w-full;
+   }
 }
