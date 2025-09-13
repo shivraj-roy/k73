@@ -5,6 +5,10 @@ body {
 }
 
 @layer utilities {
+   .center-flex {
+      @apply flex justify-center items-center;
+   }
+
    .full-screen {
       @apply h-screen w-screen;
    }
